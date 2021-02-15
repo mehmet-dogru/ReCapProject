@@ -33,19 +33,14 @@ namespace DataAccess.Concrete.InMemory
             _cars.Remove(carToDelete);
         }
 
+        public Car Get(Expression<Func<Car, bool>> filter)
+        {
+            return null; 
+        }
+
         public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
             return _cars;
-        }
-
-        public List<Car> GetById(int carId)
-        {
-            return _cars.Where(c => c.Id == carId).ToList();
-        }
-
-        public List<Car> GetById(Expression<Func<Car, bool>> filter)
-        {
-            throw new NotImplementedException();
         }
 
         public void Update(Car car)
