@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Busine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{EF90750A-31F6-403F-ABBF-795D4AE3D584}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\..\GitProject\KampFinalProject-master\Core\Core.csproj", "{81015032-9B03-42D1-A880-44CE564131C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EF90750A-31F6-403F-ABBF-795D4AE3D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF90750A-31F6-403F-ABBF-795D4AE3D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF90750A-31F6-403F-ABBF-795D4AE3D584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81015032-9B03-42D1-A880-44CE564131C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81015032-9B03-42D1-A880-44CE564131C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81015032-9B03-42D1-A880-44CE564131C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81015032-9B03-42D1-A880-44CE564131C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
